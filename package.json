@@ -1,0 +1,24 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run server",
+    "build": "esbuild client/app.tsx --bundle --outfile=dist/index.js --define:process.env.NODE_ENV=\\\"production\\\" --sourcemap",
+    "server": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Kolesnikov <exsdis@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "esbuild": "^0.8.36",
+    "mime": "^2.5.0"
+  }
+}

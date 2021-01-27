@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Best inc.",
+        "logo": "https://placekitten.com/100/100",
+        "speciality": "Excavation",
+        "city": "Prague"
+    },
+    {
+        "name": "Grease and Shovels inc.",
+        "logo": "https://placekitten.com/100/100",
+        "speciality": "Plumbing",
+        "city": "Moscow"
+    },
+    {
+        "name": "Electro magic",
+        "logo": "https://placekitten.com/100/100",
+        "speciality": "Electrical",
+        "city": "Berlin"
+    }
+]
